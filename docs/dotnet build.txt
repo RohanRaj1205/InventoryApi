@@ -1,0 +1,12 @@
+# API Documentation
+
+## POST /api/Items
+Create a new item.
+
+**Request Body**:
+```json
+{
+    "name": "string",
+    "quantity": int,
+    "location": "string"
+}
